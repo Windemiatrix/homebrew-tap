@@ -13,8 +13,6 @@ cask "kawa" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :catalina"
-
   app "Kawa.app"
 
   uninstall quit: "net.noraesae.Kawa"
